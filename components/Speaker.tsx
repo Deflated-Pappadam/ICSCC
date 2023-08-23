@@ -20,7 +20,7 @@ function Speaker(props: speakerProps) {
       <div className='flex flex-col md:p-5 p-1 mb-3'>
         <div className='md:text-3xl text-2xl text-center pt-4'>{props.name}</div>
         <a href={props.url} className='md:text-xl text-lg font-light text-center pt-4'>Profile</a>
-        <div className='md:text-2xl text-lg text-ellipsis pt-3 mx-3'>{props.desc}</div>
+        <div className='md:text-2xl text-lg text- pt-3 mx-3'>{props.desc}</div>
       </div>
     </div>
   )
