@@ -8,8 +8,20 @@ import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#f1f1f1] text-black transition-all ">
+    <main className="flex min-h-screen flex-col bg-[#f1f1f1] text-black transition-all overflow-x-hidden">
       <section className="flex flex-col min-h-screen justify-end items-center">
+        <nav
+          id="nav"
+          className="flex text-2xl w-full justify-center text-center pt-[150px] "
+        >
+          <div className="w-[30%] flex justify-between">
+            <div>Home</div>
+            <div>Smth</div>
+            <div>Smth</div>
+            <div>Smth</div>
+          </div>
+        </nav>
+
         <div className="flex-1 flex flex-col items-center justify-center">
           <h1 className="text-7xl md:text-8xl xl:text-[175px] font-extrabold">
             ICSCC 2024
@@ -21,10 +33,9 @@ export default function Home() {
             Register
           </button>
         </div>
-        <div className="flex md:w-full md:h-full h-[250px] w-[800px] justify-center">
-        <Image src={landingBanner} alt="" placeholder="blur" />
+        <div className="flex md:w-full md:h-full h-[250px] w-[800px] justify-center ">
+          <Image src={landingBanner} alt="" placeholder="blur" />
         </div>
-        
       </section>
 
       <section className="flex flex-col justify-center items-center min-h-screen">
@@ -64,22 +75,33 @@ export default function Home() {
             seeing you at ICSCC in Kochi, India in August 2023!
           </h2>
           <div className="w-[30%] md:flex hidden">
-          <Image src={landingBanner} alt="" placeholder="blur" />
+            <Image src={landingBanner} alt="" placeholder="blur" />
           </div>
-          
         </div>
       </section>
 
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex"></div>
 
       <section id="schedules">
-        <Schedule />
-        <Schedule />
-        <Schedule />
-        <Schedule />
+        <div className="text-[50px] text-center">
+          Dates To Remember
+        </div>
+        <div className="flex w-[95%] mx-auto">
+          <Schedule />
+          <Schedule />
+        </div>
+
+        <div className="flex">
+          <Schedule />
+          <Schedule />
+        </div>
+        <div className="flex w-[95%] mx-auto">
+          <Schedule />
+          <Schedule />
+        </div>
       </section>
 
-      <section id="speakers" className="mt-5 flex w-full h-full">
+      <section id="speakers" className="mt-5 flex w-[90%] h-full mx-auto">
         <div>
           <div className="text-[50px]  text-center">Speakers</div>
           <div className="flex flex-wrap gap-y-2 justify-center ">
@@ -122,9 +144,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="Venue">
-      
-      </section>
+      <section id="Venue"></section>
 
       <footer
         id="footer"
@@ -141,19 +161,13 @@ export default function Home() {
           <div className="flex flex-col  my-auto">
             <div className="font-medium">Contact Us</div>
             <a href="">
-              <div className="md:mt-2 font-thin cursor-pointer ">
-                phone
-              </div>
+              <div className="md:mt-2 font-thin cursor-pointer ">phone</div>
             </a>
             <a href="">
-              <div className="font-thin cursor-pointer ">
-                Instagram
-              </div>
+              <div className="font-thin cursor-pointer ">Instagram</div>
             </a>
             <a href="">
-              <div className="font-thin cursor-pointer ">
-                Website
-              </div>
+              <div className="font-thin cursor-pointer ">Website</div>
             </a>
           </div>
           <div className="md:flex hidden flex-col  my-auto">
