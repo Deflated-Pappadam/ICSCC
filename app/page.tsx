@@ -4,6 +4,7 @@ import Image from "next/image";
 import landingBanner from "@/public/about-banner-2.jpg";
 
 import speaker1 from "@/public/speaker.jpg";
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 export default function Home() {
   return (
@@ -120,6 +121,9 @@ export default function Home() {
             />
           </div>
         </div>
+      </section>
+      <section id="Venue">
+      
       </section>
 
       <footer
