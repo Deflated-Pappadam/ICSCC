@@ -51,7 +51,7 @@ export default function Home() {
 Welcome to ICSCC 2024 <br />
 Thiruvanathapuram, India | August 17 – 19, 2024
 </div>
-        <div className="flex w-[90%] mx-auto mt-5 justify-between ">
+        <div className="flex w-[90%] mx-auto mt-10 justify-between ">
           <h2 className="max-w-3xl text-xl text-justify">
             We would like to invite you to contribute to and participate in the
             9th International Conference on Smart Computing and Communication
@@ -64,18 +64,7 @@ Thiruvanathapuram, India | August 17 – 19, 2024
             industry to share their experience, foster collaborations among
             industry and academia, and get enlightened about the state-of
             the-art advancements in their respective domains. <br />
-            <br />
-            The conference has been held since 2008. Over the past fourteen
-            years, ICSCC has developed into a well-established conference for
-            sharing insights, experiences and interaction on various aspects of
-            evolving technologies and patterns related to Computer Science,
-            Information Technology, Communication, Electronics, and Energy
-            Systems. The ICSCC 2023 offers a rich program, including keynote
-            speeches, regular presentations and workshops. We need your
-            contribution and participation to make it a successful event. We
-            welcome both theoretical papers and simulation (experimental)
-            results.
-            <br />
+            
             <br />
             The theme for ICSCC 2023 is ‘Intelligent Technologies and
             Applications’. The 9th edition of ICSCC aims to provide the
@@ -164,9 +153,9 @@ Thiruvanathapuram, India | August 17 – 19, 2024
         <div className="flex flex-col   md:text-2xl text-xl md:flex-row md:w-[50%] w-[90%] md:mx-auto md:justify-between ">
           <div className="flex flex-col my-auto">
             <div className="font-medium">Venue Adress</div>
-            <div className="mt-2 font-thin ">fgjdf gfd dfg sefjg</div>
-            <div className="font-thin  ">fgdfhjgf jhdsgf ggfg</div>
-            <div className="font-thin  ">fgdffg fdsf dfs</div>
+            <div className="mt-2 font-thin ">Mar Baselios College Of Engineering</div>
+            <div className="font-thin  ">Nalanchira , Thiruvananthapuram</div>
+            <div className="font-thin  ">Kerala, India</div>
           </div>
 
           <div className="flex flex-col  my-auto">
