@@ -48,9 +48,9 @@ export default function Home() {
 
       <section className="flex md:flex-row flex-col px-5 w-[90%] mx-auto  mt-10 md:mt-20 justify-between">
         <div className="flex flex-col gap-14 mt-10 justify-between md:w-[50%]">
-          <div className="w-[90%] text-lg sm:text-xl md:text-[px] font-semibold ">
+          <div className="w-[90%] text-lg sm:text-xl md:text-[55px] font-semibold ">
             Welcome to ICSCC 2024 <br />
-            <div className="md:text-[30px] text-base text-gray-800 my-5">
+            <div className="md:text-[36px] text-base text-gray-800 my-5">
               Thiruvanathapuram, India
             </div>
           </div>
