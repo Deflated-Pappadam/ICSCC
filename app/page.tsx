@@ -46,9 +46,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex px-5 w-[90%] mx-auto  mt-10 md:mt-20 justify-between">
+      <section className="flex md:flex-row flex-col px-5 w-[90%] mx-auto  mt-10 md:mt-20 justify-between">
         <div className="flex flex-col gap-14 mt-10 justify-between md:w-[50%]">
-          <div className="w-[90%] text-lg sm:text-xl md:text-[36px] font-semibold ">
+          <div className="w-[90%] text-lg sm:text-xl md:text-[px] font-semibold ">
             Welcome to ICSCC 2024 <br />
             <div className="md:text-[30px] text-base text-gray-800 my-5">
               Thiruvanathapuram, India
@@ -79,8 +79,39 @@ export default function Home() {
             seeing you at ICSCC in Kochi, India in August 2023!
           </h2>
         </div>
-        <div className="w-[40%]  md:flex flex-wrap hidden">
-          <Image src={conferenceImage} alt="" placeholder="blur" />
+        <div className="md:w-[50%]  w-full mx-auto md:flex flex-wrap ">
+          {/* <Image src={conferenceImage} alt="" placeholder="blur" /> */}
+
+          <section id="schedules" className="md:h-full md:w-[60%] my-10 mx-auto max-w-[90%">
+        <div className="text-2xl py-6 bg-black text-white  md:text-black md:bg-transparent md:text-[50px] font-semibold text-center mt-5 md:my-10">
+          Dates To Remember
+        </div>
+        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+          <p className="font-bold w-[45%]">Call for paper open</p>
+          <div >27th Mar 2023</div>
+        </div>
+        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+          <p className="font-bold w-[45%]">Full paper submission deadline</p>
+          <div >18th May 2023</div>
+        </div>
+        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+          <p className="font-bold w-[45%]">Nortification of Acceptance</p>
+          <div >15th June 2023</div>
+        </div>
+        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+          <p className="font-bold w-[45%]">Camera Ready Submission</p>
+          <div >20th July 2023</div>
+        </div>
+        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+          <p className="font-bold w-[45%]">Conference</p>
+          <div className="md:max-w-full max-w-[40%]">17th, 18th, 19th August 2023</div>
+        </div>
+        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+          <p className="font-bold w-[45%]">Final Submission</p>
+          <div >20th July 2023</div>
+        </div>
+      </section>
+
         </div>
       </section>
       <br className="text-black" />
@@ -134,7 +165,7 @@ export default function Home() {
           Tracks
         </div>
 
-        <h2 className="flex-1 mt-5 md:text-xl text-center font-semibold text-md">
+        <h2 className="flex-1 mt-5 md:text-xl text-center font-regular text-md">
           The theme for ICSCC 2023 is ‘Intelligent Technologies and
           Applications’. The 9th edition of ICSCC aims to provide the delegates
           the perfect stage to discuss the recent advancements and latest
@@ -176,31 +207,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="schedules" className="md:h-full my-10 mx-auto max-w-[90%">
-        <div className="text-2xl py-6 bg-black text-white  md:text-black md:bg-transparent md:text-[50px] font-semibold text-center mt-5 md:my-10">
-          Dates To Remember
-        </div>
-        <div className="border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold">Call for paper open</p>
-          <div>27th Mar 2023</div>
-        </div>
-        <div className="border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold">Full paper submission deadline</p>
-          <div>18th May 2023</div>
-        </div>
-        <div className="border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold">Nortification of Acceptance</p>
-          <div>15th June 2023</div>
-        </div>
-        <div className="border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold">Camera Ready Submission</p>
-          <div>20th July 2023</div>
-        </div>
-        <div className="border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold">Conference</p>
-          <div>17th 18th 19th August 2023</div>
-        </div>
-      </section>
+      
       <section id="Venue"></section>
 
       <footer
