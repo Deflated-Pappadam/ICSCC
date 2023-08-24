@@ -48,7 +48,7 @@ export default function Home() {
 
       <section className="flex md:flex-row flex-col px-5 w-[90%] mx-auto  mt-10 md:mt-20 justify-between">
         <div className="flex flex-col gap-14 mt-10 justify-between md:w-[50%]">
-          <div className="w-[90%] text-lg sm:text-xl md:text-[55px] font-semibold ">
+          <div className="w-[90%] max-sm:text-xl md:text-[55px] md:leading-[4rem] font-semibold">
             Welcome to ICSCC 2024 <br />
             <div className="md:text-[36px] text-base text-gray-800 my-5">
               Thiruvanathapuram, India
@@ -83,32 +83,32 @@ export default function Home() {
           {/* <Image src={conferenceImage} alt="" placeholder="blur" /> */}
 
           <section id="schedules" className="md:h-full md:w-[60%] my-10 mx-auto max-w-[90%">
-        <div className="text-2xl py-6 bg-black text-white  md:text-black md:bg-transparent md:text-[50px] font-semibold text-center mt-5 md:my-10">
+        <div className="text-2xl py-6 leading-[3rem] bg-black text-white  md:text-black md:bg-transparent min[950px]:text-[50px] font-semibold text-center mt-5 md:my-10">
           Dates To Remember
         </div>
         <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
           <p className="font-bold w-[45%]">Call for paper open</p>
-          <div >27th Mar 2023</div>
+          <div className="text-right">27th Mar 2023</div>
         </div>
         <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
           <p className="font-bold w-[45%]">Full paper submission deadline</p>
-          <div >18th May 2023</div>
+          <div className="text-right">18th May 2023</div>
         </div>
         <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
           <p className="font-bold w-[45%]">Nortification of Acceptance</p>
-          <div >15th June 2023</div>
+          <div className="text-right">15th June 2023</div>
         </div>
         <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
           <p className="font-bold w-[45%]">Camera Ready Submission</p>
-          <div >20th July 2023</div>
+          <div className="text-right">20th July 2023</div>
         </div>
         <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
           <p className="font-bold w-[45%]">Conference</p>
-          <div className="md:max-w-full max-w-[40%]">17th, 18th, 19th August 2023</div>
+          <div className="md:max-w-[40%] max-w-[50%] text-right">17th, 18th, 19th August 2023</div>
         </div>
         <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
           <p className="font-bold w-[45%]">Final Submission</p>
-          <div >20th July 2023</div>
+          <div className="text-right">20th July 2023</div>
         </div>
       </section>
 
@@ -120,7 +120,7 @@ export default function Home() {
           <div className="text-2xl py-6 bg-black text-white  sm:text-black sm:bg-transparent md:text-[50px] font-semibold text-center my-10">
             Speakers
           </div>
-          <div className="flex flex-wrap gap-y-2 justify-center ">
+          <div className="flex flex-wrap gap-3 justify-center ">
             <Speaker
               image={speaker1}
               url=""
@@ -201,7 +201,7 @@ export default function Home() {
               desc="Low Power Electronics; VLSI Systems; Nano Electronics; FPGA Development; System on Chip; Embedded Applications; Embedded Memory Architecture; System Automation; Power Electronics and Control Scheme."
             />
             <DropDown
-              header="Power Systems, Energy Systems and Power Electronics"
+              header="Energy Systems and Power Electronics"
               desc="Power Generation; Transmission and Distribution; Power System Monitoring; Control and Protection; Energy: Renewable Energy Sources , Grid integration of renewables, system integration of renewables, power system operation and control, power electronics for renewables, grid code regulation, demand side response, forecasting of renewable resources and load; Microgrids, smart grids and distributed generation: Architecture, sizing, topologies and control methods, distributed generation; Energy storage: methods, modelling, design and simulation. Electric Vehicles: Charging (slow, medium, boost), battery management system, hybrid vehicles, grid integration of electric vehicles. Control theory and applications: Industrial Applications of Control, Process Control Systems."
             />
           </div>

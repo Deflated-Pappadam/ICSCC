@@ -15,7 +15,7 @@ function DropDown (props: dropDownProps) {
     
     const handleDropDown = () => {
         if(dropDown === "70px") {
-            setDropDown("300px");
+            setDropDown("100%");
         }
         else {
             setDropDown("70px")
@@ -25,18 +25,18 @@ function DropDown (props: dropDownProps) {
     const handleMouseLeave = () => {
         setTimeout(() => {
             setDropDown("70px")
-        }, 700);
+        }, 400);
     }
 
     return(
-        <div className={`md:min-w-[90%] min-w-[290px] mt-5 cursor-pointer items-center w-[40%] mx-auto overflow-hidden border-black border ease-in duration-300 rounded-lg transition-all` } 
+        <div className={`md:min-w-[90%] min-h-[70px] min-w-[290px] mt-5 cursor-pointer items-center w-[40%] mx-auto overflow-hidden border-black border ease-in duration-300 rounded-lg transition-all pb-7` } 
             style={{height:dropDown}}
             onMouseLeave={handleMouseLeave}
         > 
-            <div className="flex justify-between"
+            <div className="flex justify-between items-center h-[70px]"
                 onClick={handleDropDown}
             >
-                <p className=" min-h-[90px] text-lg w-[100%] p-4 font-bold">{props.header}</p>
+                <p className="text-lg w-[100%] p-4 font-bold">{props.header}</p>
                 <button type="button" title='button' className="p-5 my-auto" onClick={handleDropDown}>
                     <Image src={arrow} alt='' width={20} height={20} style={{rotate:dropDown === "70px" ?'0deg': '180deg'}}/>
                 </button>
