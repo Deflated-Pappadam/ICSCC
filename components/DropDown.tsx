@@ -11,20 +11,20 @@ type dropDownProps = {
 }
 
 function DropDown (props: dropDownProps) {
-    const [dropDown, setDropDown] = useState("90px");
+    const [dropDown, setDropDown] = useState("70px");
     
     const handleDropDown = () => {
-        if(dropDown === "90px") {
+        if(dropDown === "70px") {
             setDropDown("300px");
         }
         else {
-            setDropDown("90px")
+            setDropDown("70px")
         }   
     }
     
     const handleMouseLeave = () => {
         setTimeout(() => {
-            setDropDown("90px")
+            setDropDown("70px")
         }, 700);
     }
 
@@ -37,8 +37,8 @@ function DropDown (props: dropDownProps) {
                 onClick={handleDropDown}
             >
                 <p className=" min-h-[90px] text-lg w-[100%] p-4 font-bold">{props.header}</p>
-                <button type="button" title='button' className="p-4" onClick={handleDropDown}>
-                    <Image src={arrow} alt='' width={20} height={20} style={{rotate:dropDown === "90px" ?'0deg': '180deg'}}/>
+                <button type="button" title='button' className="p-5 my-auto" onClick={handleDropDown}>
+                    <Image src={arrow} alt='' width={20} height={20} style={{rotate:dropDown === "70px" ?'0deg': '180deg'}}/>
                 </button>
             </div>
             <div className="pt-4 px-4">
