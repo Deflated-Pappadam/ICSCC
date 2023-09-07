@@ -12,9 +12,9 @@ function page() {
           {[...Array(5)].map((_, i) => {
             return (
               <div key={i} className="text-lg p-10">
-                BEST PAPER AWARD FOR ALL TRACKS HAVE BEEN DECLARED{" "}
+                SUBMISSION DEADLINE :{" "}
                 <span className="hover:cursor-pointer text-blue-300">
-                  KNOW MORE
+                  April 22, 2019
                 </span>
               </div>
             );
@@ -32,6 +32,16 @@ function page() {
         </div>
       </section>
       <section className='min-h-screen'>
+          <h1>Program Comitee</h1>
+          <div>
+            <h2>Technical Program Committee</h2> 
+            <ol>
+              <li>Dr. Tsutomu Tsuboi, General Manager, Global Business Development Office, ITS Information Equipment Division, Nagoya Electric Works CO., LTD.</li>
+              <li>Dr. Wajeb Gharibi, Professor, Dept. of Computer & Network Engineering, Jazan University, Saudi Arabia.</li>
+              <li>Dr. Basabi Chakraborty, Professor & Head, PR&ML Lab, Iwate Prefectural University, Japan</li>
+            
+            </ol>
+          </div>
       </section>
     </main>
   )

@@ -20,9 +20,9 @@ export default function Home() {
           {[...Array(5)].map((_, i) => {
             return (
               <div key={i} className="text-lg p-10">
-                BEST PAPER AWARD FOR ALL TRACKS HAVE BEEN DECLARED{" "}
+                SUBMISSION DEADLINE :{" "}
                 <span className="hover:cursor-pointer text-blue-300">
-                  KNOW MORE
+                  April 22, 2019
                 </span>
               </div>
             );
@@ -34,6 +34,10 @@ export default function Home() {
           <h1 className="text-7xl md:text-8xl xl:text-[175px] font-extrabold text-center">
             ICSCC 2024
           </h1>
+          <div className="text-2xl text-center">
+            NetACT19: International Conference on Networks and Advances in
+            Computational Technologies
+          </div>
           <h3 className="text-xl text-center">
             Organized by <b>Mar Baselios College Of Engineering Trivandrum</b>
           </h3>
@@ -82,36 +86,42 @@ export default function Home() {
         <div className="md:w-[50%]  w-full mx-auto md:flex flex-wrap ">
           {/* <Image src={conferenceImage} alt="" placeholder="blur" /> */}
 
-          <section id="schedules" className="md:h-full md:w-[60%] my-10 mx-auto max-w-[90%">
-        <div className="text-2xl py-6 leading-[3rem] bg-black text-white  md:text-black md:bg-transparent min[950px]:text-[50px] font-semibold text-center mt-5 md:my-10">
-          Dates To Remember
-        </div>
-        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold w-[45%]">Call for paper open</p>
-          <div className="text-right">27th Mar 2023</div>
-        </div>
-        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold w-[45%]">Full paper submission deadline</p>
-          <div className="text-right">18th May 2023</div>
-        </div>
-        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold w-[45%]">Nortification of Acceptance</p>
-          <div className="text-right">15th June 2023</div>
-        </div>
-        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold w-[45%]">Camera Ready Submission</p>
-          <div className="text-right">20th July 2023</div>
-        </div>
-        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold w-[45%]">Conference</p>
-          <div className="md:max-w-[40%] max-w-[50%] text-right">17th, 18th, 19th August 2023</div>
-        </div>
-        <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
-          <p className="font-bold w-[45%]">Final Submission</p>
-          <div className="text-right">20th July 2023</div>
-        </div>
-      </section>
-
+          <section
+            id="schedules"
+            className="md:h-full md:w-[60%] my-10 mx-auto max-w-[90%"
+          >
+            <div className="text-2xl py-6 leading-[3rem] bg-black text-white  md:text-black md:bg-transparent min[950px]:text-[50px] font-semibold text-center mt-5 md:my-10">
+              Dates To Remember
+            </div>
+            <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+              <p className="font-bold w-[45%]">Call for paper open</p>
+              <div className="text-right">27th Mar 2023</div>
+            </div>
+            <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+              <p className="font-bold w-[45%]">
+                Full paper submission deadline
+              </p>
+              <div className="text-right">18th May 2023</div>
+            </div>
+            <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+              <p className="font-bold w-[45%]">Nortification of Acceptance</p>
+              <div className="text-right">15th June 2023</div>
+            </div>
+            <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+              <p className="font-bold w-[45%]">Camera Ready Submission</p>
+              <div className="text-right">20th July 2023</div>
+            </div>
+            <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+              <p className="font-bold w-[45%]">Conference</p>
+              <div className="md:max-w-[40%] max-w-[50%] text-right">
+                17th, 18th, 19th August 2023
+              </div>
+            </div>
+            <div className="w-full border rounded-lg flex justify-between items-center bg-black my-2 py-5 px-6 text-white">
+              <p className="font-bold w-[45%]">Final Submission</p>
+              <div className="text-right">20th July 2023</div>
+            </div>
+          </section>
         </div>
       </section>
       <br className="text-black" />
@@ -207,7 +217,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       <section id="Venue"></section>
 
       <footer
