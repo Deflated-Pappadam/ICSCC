@@ -290,6 +290,43 @@ function page() {
           </ol>
         </div>
       </section>
+      <footer
+        id="footer"
+        className="flex justify-around w-full mx-auto mt-5 bg-black min-h-[300px] text-white p-5"
+      >
+        <div className="flex flex-col   md:text-2xl text-xl md:flex-row md:w-[50%]  md:mx-auto md:justify-between ">
+          <div className="flex flex-col my-auto">
+            <div className="font-medium">Venue Adress</div>
+            <div className="mt-2 font-thin ">
+              Mar Baselios College Of Engineering
+            </div>
+            <div className="font-thin  ">Nalanchira , Thiruvananthapuram</div>
+            <div className="font-thin  ">Kerala, India</div>
+          </div>
+
+          <div className="flex flex-col  my-auto">
+            <div className="font-medium">Contact Us</div>
+            <a href="">
+              <div className="md:mt-2 font-thin cursor-pointer ">phone</div>
+            </a>
+            <a href="">
+              <div className="font-thin cursor-pointer ">Instagram</div>
+            </a>
+            <a href="">
+              <div className="font-thin cursor-pointer ">Website</div>
+            </a>
+          </div>
+          <div className="md:flex hidden flex-col  my-auto">
+            <div className="text-3xl font-semibold underline leading-relaxed tracking-wider">
+              Register
+            </div>
+            <div className="text-black">.</div>
+          </div>
+        </div>
+        <div className="md:hidden flex h-full  my-auto text-2xl font-semibold underline m-2">
+          Register
+        </div>
+      </footer>
     </main>
   );
 }
