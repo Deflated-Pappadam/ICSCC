@@ -32,18 +32,22 @@ export default function Home() {
 
         <div className="flex-1 flex flex-col items-center justify-center">
           <h1 className="text-7xl md:text-8xl xl:text-[175px] font-extrabold text-center">
-            ICSCC 2024
+            NetAct 2024
           </h1>
           <div className="text-2xl text-center">
             NetACT19: International Conference on Networks and Advances in
             Computational Technologies
           </div>
           <h3 className="text-xl text-center">
-            Organized by <b>Mar Baselios College Of Engineering Trivandrum</b>
+            Organized by <b>Department of Computer Science and Engineering</b> of <br/> 
+            <b>Mar Baselios College of Engineering and Technology</b> <br/>
+            Mar Ivanios Vidyanagar <br />
+            Nalanchira P.O, Thiruvananthapuram, <br />
+            Kerala, India
           </h3>
-          <button className="mb-5 mt-10 text-2xl bg-black hover:bg-slate-700 text-white rounded-2xl px-5 py-2 font-semibold">
+          {/* <button className="mb-5 mt-10 text-2xl bg-black hover:bg-slate-700 text-white rounded-2xl px-5 py-2 font-semibold">
             Register
-          </button>
+          </button> */}
         </div>
         <div className="flex md:w-full md:h-full h-[250px] w-[800px] justify-center ">
           <Image src={landingBanner} alt="" placeholder="blur" />
@@ -125,7 +129,7 @@ export default function Home() {
         </div>
       </section>
       <br className="text-black" />
-      <section id="speakers" className="md:h-full my-10 mx-auto max-w-[90%]">
+      {/* <section id="speakers" className="md:h-full my-10 mx-auto max-w-[90%]">
         <div>
           <div className="text-2xl py-6 bg-black text-white  sm:text-black sm:bg-transparent md:text-[50px] font-semibold text-center my-10">
             Speakers
@@ -169,7 +173,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="tracks" className="md:h-full my-10 mx-auto max-w-[90%]">
         <div className="text-2xl py-4 bg-black text-white  md:text-black md:bg-transparent md:text-[50px] font-semibold text-center mt-5 md:my-10">
           Tracks
