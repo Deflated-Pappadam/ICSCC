@@ -17,7 +17,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#f1f1f1] text-black transition-all overflow-x-hidden">
       <section className="flex flex-col min-h-screen justify-end items-center">
         <Marquee className="bg-black text-white h-20 overflow-hidden">
-          {[...Array(5)].map((_, i) => {
+          {[...Array()].map((_, i) => {
             return (
               <div key={i} className="text-lg p-10">
                 EVENT DATE:{" "}
