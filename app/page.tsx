@@ -20,9 +20,9 @@ export default function Home() {
           {[...Array(5)].map((_, i) => {
             return (
               <div key={i} className="text-lg p-10">
-                SUBMISSION DEADLINE :{" "}
+                EVENT DATE:{" "}
                 <span className="hover:cursor-pointer text-blue-300">
-                  April 22, 2019
+                  coming soon...
                 </span>
               </div>
             );

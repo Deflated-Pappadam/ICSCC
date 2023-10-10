@@ -61,7 +61,7 @@ export default function NaviBar() {
         >
           <div className="flex flex-col justify-end w-full">
             <a href="/">Home</a>
-            <a href="/">Schedule</a>
+            <a href="/#schedules">Schedule</a>
             <a href="/committees">Committees</a>
             <a href="/call-for-papers">Call For Papers</a>
             <a href="/submissions">Submissions</a>
